@@ -216,7 +216,7 @@ class Sidebar extends Component {
             </div>
             <div className="review-list">
               {placesDetails[0] ? (
-                placesDetails[this.state.selectedPlace].reviews.map(
+                placesDetails[this.state.selectedPlace].reviews?.map(
                   (review) => (
                     <div className="review">
                       <div className="author">
